@@ -41,6 +41,5 @@ Belarusian State Technological University - did not graduate from
 
 ## Languages
 * Russian - Native
-* English -  B1/Intermediate (according to the online test at www.efset.org)
-<br/>
+* English -  B1/Intermediate (according to the online test at www.efset.org)\
 ![](img/eng_level.jpg)
