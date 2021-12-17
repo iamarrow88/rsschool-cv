@@ -17,7 +17,7 @@ I hope that this opportunity will change my life so I'm doing my best.
 * Git, GitHub
 
 ## Code examples
-Peak array index KATA from CODEWARS: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+My solution of KATA from CODEWARS: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 ```
 function even_or_odd(number) {
   if (number % 2 === 0) {
@@ -40,6 +40,7 @@ function even_or_odd(number) {
 Belarusian State Technological University - did not graduate from
 
 ## Languages
-Russian - Native
-English -  B1/Intermediate (according to the online test at www.efset.org)
+* Russian - Native
+* English -  B1/Intermediate (according to the online test at www.efset.org)
+<br/>
 ![](img/eng_level.jpg)
