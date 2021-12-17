@@ -44,6 +44,11 @@ function even_or_odd(number) {
 * JavaScript/Front-end by [RS School](https://rs.school/) (in progress)
 
 ***
+
+## My projects
+* [My CV](https://iamarrow88.github.io/rsschool-cv/cv)
+
+***
 ## Education
 Belarusian State Technological University - did not graduate from
 
