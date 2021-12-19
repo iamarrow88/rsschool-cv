@@ -4,99 +4,111 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="normalize.css">
+  <!--  <link rel="stylesheet" href="normalize.css"> -->
    <link rel="stylesheet" href="style.css">
    <title>Curriculum Vitae</title>
 </head>
 <body>
    <header>
-      <ul>
-         <li><a href="#"></a>My contacts</li>
-         <li><a href="#"></a>About Myself</li>
-         <li><a href="#"></a>Skills</li>
-         <li><a href="#"></a>Code examples</li>
-         <li><a href="#"></a>Courses</li>
-         <li><a href="#"></a>My projects</li>
-         <li><a href="#"></a>Education</li>
-         <li><a href="#"></a>Languages</li>
-      </ul>
-      <h2>Nastassia Pisanko</h2>
-      <h1>Junior Frontend Developer</h1>
-      <img src="img/IMG_20210311_143017_347.jpg" alt="">
+      <nav>
+         <ul>
+            <li><a href="#contacts">My contacts</a></li>
+            <li><a href="#about">About Myself</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code examples</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#projects">My projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#lang">Languages</a></li>
+         </ul>
+      </nav>
+      <div class="wrap">         
+         <div class="title">
+            <h2>Nastassia Pisanko</h2>
+            <h1>Junior Frontend Developer</h1>
+         </div>
+         <div class="photo">
+            <img class="photo_img" src="img/IMG_20210311_143017_347.jpg" alt="Nana's photo">
+         </div>
+      </div>
    </header>
 
 
 
+<div class="wrapper">
    <section class="left">
-      <div class="contacts">
-         <h3>My contacts</h3>
+      <div class="contacts" id="contacts">
          <ul>
-            <li>Location: Minsk, Belarus</li>
-            <li>Phone: +375299445115</li>
-            <li>E-mail: bonjozzy@gmail.com</li>
-            <li>Telegram: @Nana_Pisanko</li>
-            <li>GitHub: iamarrow88</li>
-            <li>Discord: Nana88#3563</li>
+            <li><div class="items_title">Location</div><div class="items_descr">Minsk, Belarus</div></li>
+            <li><div class="items_title">Phone</div><div class="items_descr">+375299445115</div></li>
+            <li><div class="items_title">E-mail</div><div class="items_descr">bonjozzy@gmail.com</div></li>
+            <li><div class="items_title">Telegram</div><div class="items_descr">@Nana_Pisanko</div></li>
+            <li><div class="items_title">GitHub</div><div class="items_descr">iamarrow88</div></li>
+            <li><div class="items_title">Discord</div><div class="items_descr">Nana88#3563</div></li>
          </ul>
       </div>
 
-      <div class="about">
-         <h3>About Myself</h3>
+      <div class="about pad" id="about">
+         <h3 class="section_title">About Myself</h3>
          <p>
             Hello, I'm Nana. I like to be a part of RS shool community. I'm learning html, css and java script for a couple of months and I'm feeling interested and excited. I can spend all day long make up a website or doing exercises on codrwars. But usually I stop myself and divide my time between my job, my family and my education.
             I hope that this opportunity will change my life so I'm doing my best.
          </p>
       </div>  
    
-      <div class="code">
-         <h3>Code examples</h3>
-         <p>My solution of KATA from CODEWARS: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
-         <code>
-            function even_or_odd(number) {
-               if (number % 2 === 0) {
-                 return 'Even';
-               } else {
-                 return 'Odd';
-               }
-             }
-         </code>
-      </div>
-   
-      <div class="courses">
-         <h3>Courses</h3>
-         <ul>
+      <div class="courses pad" id="courses">
+         <h3 class="section_title">Courses</h3>
+         <ul class="main_list">
             <li><a href="www.codecademy.com/">www.codecademy.com/</a> - HTML, CSS</li>
             <li>Udemy:
-               <li><a href="https://www.udemy.com/course/webdeveloper/">WEB-разработчик</a> (in progress)</li>
-               <li><a href="https://www.udemy.com/course/javascript_full/">Полный курс по JavaScript + React</a> (in progress)</li>
+               <ul>
+                  <li></li>
+                  <li></li>
+               </ul>
             </li>
             <li>JavaScript on <a href="https://learn.javascript.ru/array-methods">learn.javascript.ru</a> (in progress)</li>
             <li>JavaScript/Front-end by <a href="https://rs.school/">RS School</a> (in progress)</li>
          </ul>
       </div>
    
-      <div class="projects">
-         <h3>My projects</h3>
+      <div class="projects pad" id="projects">
+         <h3 class="section_title">My projects</h3>
          <a href="https://iamarrow88.github.io/rsschool-cv/cv">My CV</a>
+      </div>
+         
+      <div class="code pad" id="code">
+         <h3 class="section_title">Code examples</h3>
+         <p>My solution of KATA from CODEWARS: Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
+         <pre>
+            <code>
+               function even_or_odd(number) {
+                  if (number % 2 === 0) {
+                    return 'Even';
+                  } else {
+                    return 'Odd';
+                  }
+                }
+            </code>
+         </pre>
       </div>
    </section>
    
    <section class="right">
-      <div class="education">
-         <h3>Education</h3>
+      <div class="education pad" id="education">
+         <h3 class="section_title">Education</h3>
          <div>Belarusian State Technological University - did not graduate from</div>
       </div>
    
-      <div class="lang">
-         <h3>Languages</h3>
+      <div class="lang pad" id="lang">
+         <h3 class="section_title">Languages</h3>
          <ul>
             <li>Russian - Native</li>
             <li>English - B1/Intermediate (according to the online test at <a href="www.efset.org">www.efset.org</a>)</li>
          </ul>
       </div>
    
-      <div class="skills">
-         <h3>Skills</h3>
+      <div class="skills pad" id="skills">
+         <h3 class="section_title">Skills</h3>
          <ul>
             <li>HTML5, CSS3</li>
             <li>JavaScript Basics</li>
@@ -104,6 +116,7 @@
          </ul>
       </div>
    </section>
+</div>
 
 </body>
 </html>

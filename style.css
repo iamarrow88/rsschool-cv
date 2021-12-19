@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Montserrat:wght@400;500&family=Roboto:wght@300;400;700;900&display=swap');
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html {
+   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+   min-height: 500px;
+}
+
+header nav ul {
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+header nav li {
+   display: inline-block;
+   list-style-type: none;
+   width: 150px;
+   text-align: center;
+}
+
+header nav li a{
+   font-family: 'Montserrat', sans-serif;
+   color: black;
+   text-decoration: none;
+   /* text-align: center; */
+}
+header .wrap {
+   display: flex;
+   align-items: end;
+}
+
+header .title {
+   width: 60%;
+   display: inline-block;
+}
+
+header .title h2 {
+   padding-left: 70px;
+}
+
+header .title h1 {
+   padding-left: 70px;
+}
+
+header .photo {
+   display: inline-block;
+   width:20%;
+  /*  height: 100%; */
+}
+
+header .photo .photo_img {
+   max-width: 400px;
+   max-height: 500px;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.left {
+   width: 70%;
+}
+
+.right {
+   width: 30%;
+   background-color: #ebebeb;
+}
+
+.left .contacts {
+   background-color: #000;
+   width: 100%;
+   color: #ebebeb;
+}
+
+.left .contacts ul {
+   display: flex;
+   justify-content: space-around;
+}
+
+.left .contacts ul li {
+   display: inline-block;
+   padding: 20px;
+   line-height: 1.7em;
+
+}
+
+.left .contacts ul li .items_title {
+   font-weight: bold;
+   font-size: 15px;
+   text-transform: uppercase;
+}
+
+.pad {
+   padding: 45px 100px 15px 70px;
+   line-height: 1.5em;
+}
+
+section .about {
+   min-height: 100px;
+    
+}
+
+.section_title {
+   font-size: 25px;
+   line-height: 2em;
+   text-transform: uppercase;
+}
+
+ul {
+   list-style-position: inside;
+}
+
