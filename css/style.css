@@ -22,13 +22,14 @@ body {
 }
 
 a {
-   transition: .3s;
+   transition: 0.3s;
 /*    padding: 0 20px;
    line-height: 50px; */
 }
 
 a:hover {
-   cursor: pointer
+   cursor: pointer;
+   opacity: 0.5;
 }
 
 header {
@@ -36,7 +37,7 @@ header {
 }
 
 header nav {
-   background-color: rgb(242, 240, 242) ;
+   
 }
 
 header nav ul {
@@ -47,6 +48,7 @@ header nav ul {
    align-items: center;
    margin: 0;
    padding: 0;
+   background-color: rgb(242, 240, 242) ;
 }
 
 header nav li {
@@ -187,15 +189,17 @@ ul {
 }
 
 footer {
-   min-height: 100px;
-   background-color: rgb(242, 240, 242) ;
-   padding: 25px;
+   height: 100px;
+   padding: 0 25px;
+   
 }
 
 footer .wrapper {
    display: flex;
    justify-content: space-around;
    align-items: center;
+   background-color: rgb(242, 240, 242);
+   height: 100%;
 }
 footer img {
    height: 50px;
