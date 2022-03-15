@@ -46,7 +46,10 @@ function even_or_odd(number) {
 ***
 
 ## My projects
-* [My CV](https://iamarrow88.github.io/rsschool-cv/cv)
+* [My CV](https://iamarrow88.github.io/rsschool-cv/)
+* [Portfolio](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/portfolio/)
+* [Eco-sounds](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/eco-sounds/)
+* [Image-gallery](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/img-galery)
 
 ***
 ## Education
@@ -56,6 +59,6 @@ Belarusian State Technological University - did not graduate from
 ## Languages
 * Russian - Native
 * English -  B1/Intermediate (according to the online test at www.efset.org) <br>
-<img src="img/eng_level.jpg" alt="Intermediate" width="200"/>
+<img src="assets/img/eng_level.jpg" alt="Intermediate" width="200"/>
 <br>
-<img src="img/rs_school_js.svg" alt="RS school" width="50"/>
+<img src="assets/rs_school_js.svg" alt="RS school" width="50"/>
