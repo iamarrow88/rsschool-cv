@@ -12,7 +12,7 @@ Junior Frontend Developer
 
 ***
 ## About Myself
-Hello, I'm Nana. I like to be a part of RS sсhool community. I'm learning html, css and java script for a couple of months and I'm feeling interested and excited. I can spend all day long  make up a website or doing exercises on codrwars. But usually I stop myself and divide my time between my job, my family and my education.
+Hello, I'm Nana. I like to be a part of RS sсhool community. I'm learning html, css and java script for a couple of months and I'm feeling interested and excited. I can spend all day long to make up a website or doing exercises on codrwars. But usually I stop myself and divide my time between my job, my family and my education.
 I hope that this opportunity will change my life so I'm doing my best. 
 
 ***
@@ -40,7 +40,6 @@ function even_or_odd(number) {
 * Udemy:
    - [WEB-разработчик](https://www.udemy.com/course/webdeveloper/) (in progress)
    - [Полный курс по JavaScript + React](https://www.udemy.com/course/javascript_full/) (in progress)
-* JavaScript on learnjavascript.ru (in progress)
 * JavaScript/Front-end by [RS School](https://rs.school/) (in progress)
 
 ***
