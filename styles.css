@@ -12,7 +12,6 @@
 }
 
 body {
-    display: flex;
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -73,7 +72,7 @@ li:hover use {
 .container {
     margin: 0 auto;
     display: flex;
-    max-width: 1440px;
+    width: 1440px;
 }
 
 .title {
@@ -305,4 +304,15 @@ li:hover use {
 
 .education {
     border-left: var(--thickness) solid yellow;
+}
+
+/*-------------------------FOOTER-------------------------------*/
+
+.footer {
+    margin-top: 60px;
+    padding: 100px 30px 30px 30px;
+}
+
+.footer__github {
+    margin-right: 63%;
 }
