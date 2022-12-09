@@ -221,7 +221,6 @@ li:hover use {
 .projects a {
     display: flex;
     align-items: center;
-    padding-left: 50px;
     height: 40px;
 }
 
@@ -247,9 +246,6 @@ li:hover use {
 
 .courses li {
     margin-bottom: 10px;
-}
-.courses__item .courses__item {
-    margin-left: 10px;
 }
 
 /*------------------------ PROGRESS INDICATOR OF COURSES'S ITEMS ---------------------------------*/
