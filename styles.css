@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.3;
+    color: #626161;
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.03);
+    color: olive;
+}
+
+a:hover use {
+    fill: olive;
+}
+
+.icon {
+    width: 26px;
+    height: 26px;
+}
+
+.icon use {
+    fill: #626161;
+
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li > svg, a > svg {
+    margin-right: 5px;
+}
+li > svg {
+    margin-top: 5px;
+}
+
+li:hover {
+    color: olive;
+}
+
+li:hover use {
+    fill: olive;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1440px;
+}
+.title {
+    padding: 5px 0 15px 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.left-side {
+    position: relative;
+    padding-top: 600px;
+    width: 40vw;
+    background-color: #ffd759;
+}
+
+.photo {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 50px;
+    left: 50px;
+    border: 4px solid white;
+    z-index: 5;
+}
+
+.photo__img {
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    z-index: 2;
+}
+
+.photo__img {
+    width: 450px;
+}
+
+.contacts {
+    padding: 20px 0 20px 70px;
+    width: 100%;
+    background-color: #FACA4B;
+}
+.contacts__item {
+    padding-bottom: 15px;
+    height: 40px;
+}
+
+.contacts__item span {
+    font-weight: bold;
+}
+
+.contacts__item svg{
+    padding-top: 10px;
+    height: 36px;
+}
+.contacts__item use {
+    width: 100%;
+}
+
+
+.item__img {
+    height: 65%;
+}
+
+.lang {
+    padding: 20px 0 20px 70px;
+    width: 100%;
+}
+
+.lang__item {
+    height: 40px;
+}
+
+.lang__item img {
+    width: 20px;
+    height: 20px;
+}
+
+.right-side {
+    padding: 0 75px 0 75px;
+    width: 60vw;
+    background-color: #f8f8f8;
+}
+
+.right-side__header {
+    padding: 75px 0 0 40px;
+    border-right: 5px solid yellow;
+}
+
+.header__name {
+    padding-bottom: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.header__jobTitle {
+    padding-bottom: 50px;
+}
+
+.about {
+    padding: 0 50px 150px 40px;
+    width: 100%;
+    border-right: 5px solid yellow;
+}
+.about__title {
+    padding-left: 0;
+}
+
+.about__text {
+    width: 100%;
+}
+
+.section {
+    padding: 0 0 50px 40px;
+}
+
+.skills {
+    width: 100%;
+    border-right: 5px solid yellow;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-left: 5px solid yellow;
+}
+
+.projects a {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    height: 40px;
+    /*   background-image: url("../assets/icons/grade_FILL0_wght400_GRAD0_opsz48.svg");
+       background-repeat: no-repeat;
+       background-position: left bottom;*/
+
+}
+.sprites .icon {
+    width: 100px;
+    height: 100px;
+}
+
+
+#JS {
+    margin-left: 10px;
+}
+.courses {
+    border-left: 5px solid yellow;
+
+}
+
+.courses__title, .first {
+    border-right: 5px solid yellow;
+}
+
+.courses__icon {
+    margin-right: 10px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.courses li {
+    margin-bottom: 10px;
+}
+.courses__item .courses__item {
+    margin-left: 10px;
+}
+
+.outer-circle {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.static-half {
+    position: absolute;
+    margin-left: 50%;
+    background-color: orange;
+    width: 50%;
+    height: 100%;
+}
+.dynamic-half {
+    margin-left: 50%;
+    position: absolute;
+    background-color: orange;
+    width: 50%;
+    height: 100%;
+    transform-origin: center left;
+}
+
+.inner-circle {
+    margin: 0 auto;
+    top: 13%;
+    left: 13%;
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    background-color: yellow;
+    z-index: 10;
+}
+
+.codecademy {
+    transform: rotate(180deg);
+}
+.web {
+    transform: rotate(5deg);
+}
+.js {
+    transform: rotate(3deg);
+}
+.rs {
+    transform: rotate(0deg);
+}
+
+
+.education {
+    border-left: 5px solid yellow;
+}
