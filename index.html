@@ -2,12 +2,262 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
 	<title>My CV</title>
 </head>
-<body>
+	<body>
+		<main class="main">
+			<div class="container">
+				<div class="left-side">
+					<div class="left-side__photo photo"></div>
+					<img src="./assets/img/ava.jpg" alt="my photo" class="photo__img">
+					<div class="left-side__contacts contacts">
+						<h2 class="contacts__title title">Contacts</h2>
+						<nav class="contacts__list">
+							<ul class="list">
+								<li class="contacts__item">
+									<a href="https://www.google.by/maps/place/Minsk/@53.88464,27.5933684,11z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9045398!4d27.5615244" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#mail"></use>
+										</svg>
+										<span>Location:</span> Minsk, Belarus</a>
+								</li>
+								<li class="contacts__item">
+									<a href="tel:+375299445115" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#telephone"></use>
+										</svg>
+										<span>Phone:</span> +375299445115</a>
+								</li>
+								<li class="contacts__item">
+									<a href="mailto:bonjozzy@gmail.com" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#home_FILL0_wght500_GRAD0_opsz40"></use>
+										</svg>
+										<span>E-mail:</span> bonjozzy@gmail.com</a>
+								</li>
+								<li class="contacts__item">
+									<a href="https://web.telegram.org/?legacy=1" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#smile_1"></use>
+										</svg>
+										<span>Telegram:</span> @Nana_Pisanko</a>
+								</li>
+								<li class="contacts__item">
+									<a href="https://github.com/iamarrow88" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#github-_1_"></use>
+										</svg>
+										<span>GitHub:</span> iamarrow88</a>
+								</li>
+								<li class="contacts__item">
+									<a href="https://discord.com/app" class="item__text">
+										<svg class="icon">
+											<use xlink:href="./assets/icons/sprite.svg#discord-_1_"></use>
+										</svg>
+										<span>Discord:</span> Nana88#3563</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="right-side__lang lang">
+						<h2 class="lang__title title">languages</h2>
+						<ul class="lang__list">
+							<li class="lang__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								Russian - Native</li>
+							<li class="lang__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								English - A2/Pre-intermediate</li>
+							<li class="lang__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								JavaScript - Pre-intermediate
+								<svg class="icon" id="JS">
+									<use xlink:href="./assets/icons/sprite.svg#sentiment_very_satisfied_FILL0_wght400_GRAD0_opsz48"></use>
+								</svg>
+							</li>
+							<li class="lang__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								TypeScript - Beginner
+							</li>
+						</ul>
+					</div>
+					<div class="right-side__code-example code-example">
+						<h2 class="code-example__title title">Code example</h2>
+						<div class="code-example__description">
+							My solution of KATA from CODEWARS:
+							Create a function that takes an integer as an argument and returns "Even"
+							for even numbers or "Odd" for odd numbers.
+						</div>
+						<pre>
+function even_or_odd(number) {
+  if (number % 2 === 0) {
+    return 'Even';
+  } else {
+    return 'Odd';
+  }
+}
+						</pre>
+					</div>
+					<footer class="footer">
+						<a class="footer__rs" href="https://rs.school/js/">
+							<img src="./assets/icons/rs_school_js.svg" alt="RS School logo">
+						</a>
+						<div class="footer__info">
+							<a class="footer__github" href="https://github.com/iamarrow88">My GitHub</a> <br>
+							2022
+						</div>
+					</footer>
+				</div>
+				<div class="right-side">
+					<header class="right-side__header header">
+						<h1 class="header__name">Nastassia Pisanko</h1>
+						<div class="header__jobTitle">Junior Frontend Developer</div>
+					</header>
+					<div class="right-side__about about">
+						<h2 class="about__title title">About me</h2>
+						<div class="about__text">
+							Hello, I’m Nana. I like to be a part of RS school community.
+							I have learned HTML, CSS and JavaScript for a year,
+							and I’m feeling interested and excited.
+							This is time of my life when I am dreaming of having more hours
+							in the day because there are so many thing to do.
+							I can spend all day long to make up a website
+							or doing exercises on codrwars. It's make me happy resolving tasks and
+							searching answers for my questions on the internet :)
+							But usually I stop myself and divide my time between my job,
+							my family and my education. As you see I also like drawing,
+							seat in a chair and to do click-clack on the computer xD
+							So I climb this mountain slowly as a snail but insistently as a woodpecker
+							(this word was seen on google translate :P)
 
-</body>
+						</div>
+					</div>
+					<div class="right-side__skills skills section">
+						<h2 class="skills__title title">skills</h2>
+						<ul class="skills__list">
+							<li class="skills__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								HTML5, CSS3</li>
+							<li class="skills__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								JavaScript Basics</li>
+							<li class="skills__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								TypeScript Basics</li>
+							<li class="skills__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								Git, GitHub</li>
+							<li class="skills__item">
+								<svg class="icon">
+									<use xlink:href="./assets/icons/sprite.svg#done_white_24dp"></use>
+								</svg>
+								Figma, Avocode</li>
+						</ul>
+					</div>
+					<div class="right-side__courses courses section">
+						<h2 class="courses__title title">courses</h2>
+						<ul class="courses__list">
+							<li class="courses__item first">
+								<div class="courses__icon">
+									<div class="outer-circle">
+										<div class="static-half">
+										</div>
+										<div class="dynamic-half codecademy">
+										</div>
+									</div>
+									<div class="inner-circle"></div>
+								</div>
+								<a href="www.codecademy.com">www.codecademy.com/ - HTML, CSS</a>
+							</li>
+							<li class="courses__item">
+								<div class="courses__icon">
+									<div class="outer-circle">
+										<div class="static-half">
+										</div>
+										<div class="dynamic-half web">
+										</div>
+									</div>
+									<div class="inner-circle"></div>
+								</div>
+								<a href="https://www.udemy.com/course/webdeveloper/">Udemy: WEB-разработчик (in progress)</a>
+							</li>
+							<li class="courses__item">
+								<div class="courses__icon">
+									<div class="outer-circle">
+										<div class="static-half">
+										</div>
+										<div class="dynamic-half js">
+										</div>
+									</div>
+									<div class="inner-circle"></div>
+								</div>
+								<a href="https://www.udemy.com/course/javascript_full/">Udemy: Полный курс по JavaScript + React (in progress)</a>
+							</li>
+							<li class="courses__item">
+								<div class="courses__icon">
+									<div class="outer-circle">
+										<div class="static-half">
+										</div>
+										<div class="dynamic-half rs">
+										</div>
+									</div>
+									<div class="inner-circle"></div>
+								</div>
+								<a href="https://rs.school/js/">JavaScript/Front-end by RS School (in progress)</a>
+							</li>
+						</ul>
+					</div>
+					<div class="left-side__projects projects section">
+						<h2 class="projects__title title">My projects</h2>
+
+						<a href="https://github.com/iamarrow88/rsschool-cv/blob/main/cv.md">
+							<svg class="icon">
+								<use xlink:href="./assets/icons/sprite.svg#grade_FILL0_wght400_GRAD0_opsz48"></use>
+							</svg>
+							My markdown CV</a>
+						<a href="https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/portfolio/">
+							<svg class="icon">
+								<use xlink:href="./assets/icons/sprite.svg#grade_FILL0_wght400_GRAD0_opsz48"></use>
+							</svg>
+							Portfolio</a>
+						<a href="https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/eco-sounds/">
+							<svg class="icon">
+								<use xlink:href="./assets/icons/sprite.svg#grade_FILL0_wght400_GRAD0_opsz48"></use>
+							</svg>
+							Eco-sounds</a>
+						<a href="https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/img-galery">
+							<svg class="icon">
+								<use xlink:href="./assets/icons/sprite.svg#grade_FILL0_wght400_GRAD0_opsz48"></use>
+							</svg>
+							Image-gallery</a>
+
+					</div>
+					<div class="right-side__education education section">
+						<h2 class="education__title title">education</h2>
+						Belarusian State Technological University - did not graduate from
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
