@@ -15,15 +15,22 @@ Junior Frontend Developer
 Hello, I’m Nana. I like to be a part of RS school community.
 I have learned HTML, CSS and JavaScript for a year,
 and I’m feeling interested and excited.
+This is time of my life when I am dreaming of having more hours
+in the day because there are so many things to do.
 I can spend all day long to make up a website
-or doing exercises on codrwars.
+or doing exercises on codrwars. It's make me happy resolving tasks and
+searching answers for my questions on the internet :)
 But usually I stop myself and divide my time between my job,
-my family and my education.
-I hope that this opportunity will change my life, so I’m doing my best.
+my family and my education. As you see I also like drawing,
+seat in a chair and to do click-clack on the computer xD
+So I climb this mountain slowly as a snail but insistently as a woodpecker
+:P
 
 ***
 ## Skills
-* HTML5, CSS3
+* [HTML5](https://www.w3schools.com/html/default.asp) - tutorial, exercises, quiz
+* [Canvas](https://www.w3schools.com/graphics/canvas_intro.asp) - tutorial, exercises, quiz
+* CSS3 ()
 * JavaScript Basics
 * Git, GitHub
 
@@ -55,6 +62,8 @@ function even_or_odd(number) {
 * [Portfolio](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/portfolio/)
 * [Eco-sounds](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/eco-sounds/)
 * [Image-gallery](https://rolling-scopes-school.github.io/iamarrow88-JSFEPRESCHOOL/img-galery)
+* [простой генератор соусов](https://cooky-cook.netlify.app)
+
 
 ***
 ## Education
